@@ -1,0 +1,71 @@
+import React from 'react'
+import './Testimonials.css'
+import next_icom from '../../assets/next-icon.png'
+import back_icom from '../../assets/back-icon.png'
+import user_1 from '../../assets/user-1.png'
+import user_2 from '../../assets/user-2.png'
+import user_3 from '../../assets/user-3.png'
+import user_4 from '../../assets/user-4.png'
+
+const Testimonials = () => {
+  return (
+    <div className='testimonials'>
+      <img src={next_icom} alt="" className='next-btn'/>
+      <img src={back_icom} alt="" className='back-btn'/>
+      <div className="slider">
+        <ul>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user_1} alt="" />
+                        <div>
+                            <h3>William Jackson</h3>
+                            <span>Edusity, USA</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam saepe consequuntur natus perferendis. Consequuntur id cupiditate nam officia repellendus dolorum ea velit, quis esse necessitatibus dignissimos eius corporis blanditiis?</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user_2} alt="" />
+                        <div>
+                            <h3>William Jackson</h3>
+                            <span>Edusity, USA</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam saepe consequuntur natus perferendis. Consequuntur id cupiditate nam officia repellendus dolorum ea velit, quis esse necessitatibus dignissimos eius corporis blanditiis?</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user_3} alt="" />
+                        <div>
+                            <h3>William Jackson</h3>
+                            <span>Edusity, USA</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam saepe consequuntur natus perferendis. Consequuntur id cupiditate nam officia repellendus dolorum ea velit, quis esse necessitatibus dignissimos eius corporis blanditiis?</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user_4} alt="" />
+                        <div>
+                            <h3>William Jackson</h3>
+                            <span>Edusity, USA</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam saepe consequuntur natus perferendis. Consequuntur id cupiditate nam officia repellendus dolorum ea velit, quis esse necessitatibus dignissimos eius corporis blanditiis?</p>
+                </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  )
+}
+
+export default Testimonials
